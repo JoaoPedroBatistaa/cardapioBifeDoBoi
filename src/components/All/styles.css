@@ -1,0 +1,298 @@
+.whatsIcon {
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background-color: #00d824;
+  box-shadow: 0px 0px 5px #00bd1f71;
+
+  border-radius: 2rem;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.39);
+  border-radius: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial {
+  width: 260px;
+  height: 44px;
+
+  background-color: #b90000;
+  padding: 8px;
+
+  border-radius: 1rem;
+}
+
+.popTitle {
+  font-size: 16px;
+  font-family: 'Inknut Antiqua', serif;
+  line-height: 24px;
+
+  max-width: 14rem;
+  margin-bottom: 1.5rem;
+
+  color: #fff;
+}
+
+.popDesc {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+
+  color: #fff;
+}
+
+.close {
+  width: 24px;
+  height: 24px;
+}
+
+.divClose {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.popTop {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.whatsButton {
+  position: fixed;
+  top: 90%;
+  left: 78%;
+  animation: pulse 2s infinite;
+}
+
+.Header {
+  box-sizing: border-box;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  display: flex;
+  background-color: #000000;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  overflow-x: hidden;
+
+  box-shadow: 0px 3px 15px #ff000060;
+  border-bottom: solid 2px #610000;
+}
+
+
+.ContainerHamburguer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  background-image: url('./back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+
+}
+
+.ContainerPancake {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  background-image: url('./back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+
+}
+
+.ContainerDrinks {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  background-image: url('./back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+
+}
+
+.inactive {
+  display: none
+}
+
+.Title {
+  font-size: 20px;
+  font-family: 'Inknut Antiqua', serif;
+
+  color: #fff;
+
+}
+
+.ContainerTitle {
+  font-size: 20px;
+  font-family: 'Inknut Antiqua', serif;
+
+  color: #fff;
+
+}
+
+.foodItem {
+  display: flex;
+  flex-direction: row;
+
+  align-items: start;
+  padding-bottom: 2rem;
+}
+
+.linha {
+  height: 2px;
+
+  margin-top: -1rem;
+
+  background-color: #b90000;
+}
+
+.linhaTitles {
+  height: 1px;
+
+  margin-top: -1rem;
+  margin-bottom: 3rem;
+
+  background-color: #ffffff;
+}
+
+.foodImgImage {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+
+  width: 110px;
+  height: 135px;
+
+  border-bottom: solid 4px #610000;
+  border-right: solid 4px #610000;
+}
+
+.descTitle {
+  font-size: 14px;
+  font-family: 'Inknut Antiqua', serif;
+
+  color: #fff;
+}
+
+.descPrice {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Inknut Antiqua', serif;
+
+  color: #ffffff;
+}
+
+.descTitleArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desc {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+
+  line-height: 16px;
+
+  color: #9e9e9e;
+}
+
+.turnMenu {
+  background-color: #313131;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  border-radius: 20px;
+
+  width: 5rem;
+  box-shadow: 3px 3px 10px #4b0000c7;
+
+}
+
+.menuIcon {
+  height: 20px;
+  background-color: #610000;
+  padding: 6px;
+  border-radius: 20px;
+
+  box-shadow: 1px 1px 1px #000000c7;
+
+}
+
+.inactive {
+  opacity: 1%;
+}
+
+.menuIcon:hover {
+  scale: 1.2%;
+  cursor: pointer;
+}
+
+.hiddenRadio {
+  display: none;
+}
+
+.hiddenRadio+.menuIcon {
+  opacity: 2%;
+}
+
+.hiddenRadio:checked+.menuIcon {
+  opacity: 100%;
+}
